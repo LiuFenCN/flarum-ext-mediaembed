@@ -1,10 +1,11 @@
 <?php
 /*
- * cathi/mediaembed 全站点验证台（内存缓存，不碰线上）
- * 用法: docker exec -w <flarum> php84 php <本文件>
+ * liufencn/flarum-mediaembed 全站点验证台（内存缓存，不碰线上）
+ * 用法: docker exec -w <flarum根目录> php php <本文件>
+ * 可通过环境变量 FLARUM_ROOT 指定 Flarum 安装根目录，默认为常见容器路径
  */
 
-$root = '/www/sites/bbs.cathi.cn/index/flarum';
+$root = getenv('FLARUM_ROOT') ?: '/var/www/flarum';
 $site = require $root . '/site.php';
 $app  = $site->bootApp();
 $container = $app->getContainer();

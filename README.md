@@ -1,4 +1,4 @@
-# MediaEmbed 中文站点（cathi/mediaembed）
+# MediaEmbed 中文站点（liufencn/flarum-mediaembed）
 
 给 Flarum 2.x 的富文本引擎补上**国内常用视频 / 音乐站点**：帖子里的 B 站、AcFun、腾讯视频、网易云音乐、西瓜视频链接，发帖后自动渲染成内嵌播放器，不再只是普通超链接。
 
@@ -31,12 +31,12 @@ s9e 内置站点表有 136 个站点（YouTube / Vimeo / Dailymotion / SoundClou
 ## 安装
 
 ```bash
-composer require cathi/mediaembed
-php flarum extension:enable cathi-mediaembed
+composer require liufencn/flarum-mediaembed
+php flarum extension:enable liufencn-mediaembed
 php flarum cache:clear
 ```
 
-也可以手动部署：把本仓库放到 `extensions/cathi-mediaembed/`，再在后台启用。扩展 id 为 `cathi-mediaembed`。
+也可以手动部署：把本仓库放到 `extensions/liufencn-mediaembed/`，再在后台启用。扩展 id 为 `liufencn-mediaembed`。
 
 ## 历史数据兼容
 

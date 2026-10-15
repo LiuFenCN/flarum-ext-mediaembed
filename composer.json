@@ -1,5 +1,5 @@
 {
-    "name": "cathi/mediaembed",
+    "name": "liufencn/flarum-mediaembed",
     "description": "中文媒体站点嵌入：给 Flarum 的 s9e MediaEmbed 补上国内常用视频 / 音乐站点（B站、AcFun、腾讯视频、网易云音乐、西瓜视频），链接自动转为内嵌播放器",
     "type": "flarum-extension",
     "license": "AGPL-3.0-or-later",

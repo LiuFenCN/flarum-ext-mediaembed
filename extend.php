@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of cathi/mediaembed.
+ * This file is part of liufencn/flarum-mediaembed.
  *
  * 中文媒体站点嵌入
  * ---------------
